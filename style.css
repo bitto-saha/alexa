@@ -1,0 +1,48 @@
+#microPhn{
+  
+  font-size: 200px;
+  margin-top: 500px;
+  color: lightpink;
+  
+}
+a{
+  text-decoration: none;
+}
+#foot{
+  font-size: 15px;
+}
+
+#yn{
+  
+  font-size: 22px;
+}
+#wn{
+  
+  font-size: 22px;
+}
+#gn{
+  
+  font-size: 22px;
+}
+
+input{
+  
+  display: none;
+}
+
+
+
+
+hr{
+  color: lightpink;
+}
+
+@media (max-width: 720px){
+  h1{
+    font-size: 20px;
+  }
+  #microPhn{
+    font-size: 110px;
+    margin-top: 250px;
+  }
+}
