@@ -596,4 +596,44 @@ if(nav.toLocaleLowerCase().includes('chrome')){
   alert("This web-application is specially designed for voice recognition .It won't work in internet explorer or any custom browser. Please open google chrome!");
 }
 
+//initializing facebook search
+
+
+function fbSearch(){
+var fbBtn = document.getElementById("fn");
+var fbContent = document.getElementById("fs");
+
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+const recognition = new SpeechRecognition();
+fbBtn.addEventListener("click", () => {
+
+  recognition.start();
+  btn.style.color = "coral";
+
+
+});
+
+
+
+recognition.onstart = function() {
+
+  console.log("voic recognition started successfully! speak on your microphoneee!!!");
+}
+
+recognition.onresult = function(event) {
+
+    const current = event.resultIndex;
+
+    const transcript = event.results[current][0].transcript;
+    fbContent.textContent = transcript;
+    
+    read("showing your results");
+    var a = "https://facebook.com/search/top/";
+    window.open(a + "?q=" + fbContent.textContent + "&ref=content_filter&tsid=0");
+}
+
+
+}
+
 
