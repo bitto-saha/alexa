@@ -56,6 +56,12 @@ recognition.onresult = function(event){
     audio.play();
   
   }
+
+  else if (content.textContent.toLocaleLowerCase() === "") {
+  
+    read("Oops! I didn't hear anything!..Say Again");
+  
+  }
   else if (content.textContent.toLocaleLowerCase().includes("play") && content.textContent.toLocaleLowerCase().includes("watan")) {
   
     read("playing your song!");
