@@ -49,12 +49,16 @@ recognition.onresult = function(event){
     audio.play();
   
   }
+
   else if (content.textContent.toLocaleLowerCase().includes("play") && content.textContent.toLocaleLowerCase().includes("khairiyat")) {
   
     read("playing your song!");
     audio = new Audio('Khairiyat.mp3');
     audio.play();
   
+  }
+  else if (content.textContent.toLocaleLowerCase().includes('fine') && content.textContent.toLocaleLowerCase().includes("you")) {
+    read("Oh that's great. I'm also fine. How can I help you sir?");
   }
 
   else if (content.textContent === "") {
