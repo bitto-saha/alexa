@@ -57,7 +57,7 @@ recognition.onresult = function(event){
   
   }
 
-  else if (content.textContent.toLocaleLowerCase() === "") {
+  else if (content.textContent === "") {
   
     read("Oops! I didn't hear anything!..Say Again");
   
