@@ -212,6 +212,29 @@ recognition.onresult = function(event){
     audio.play();
   
   }
+
+  else if (content.textContent.toLocaleLowerCase().includes("what") && content.textContent.toLocaleLowerCase().includes("your") && content.textContent.toLocaleLowerCase().includes("name") ) {
+  
+    read("My name is alexa....");
+  
+  }
+
+  else if (content.textContent.toLocaleLowerCase().includes("who") && content.textContent.toLocaleLowerCase().includes("your") && content.textContent.toLocaleLowerCase().includes("creator") ) {
+  
+    read("Bitto saha had created me few days ago.. ");
+  
+  }
+
+  else if (content.textContent.toLocaleLowerCase().includes("when") && content.textContent.toLocaleLowerCase().includes("you") && content.textContent.toLocaleLowerCase().includes("created") ) {
+  
+    read("My system launched on 25 jun.. But my boss is developing my programs still now so that i can give you the best services what can be helpful to you.");
+  
+  }
+  else if (content.textContent.toLocaleLowerCase().includes("how") && content.textContent.toLocaleLowerCase().includes("bitto") && content.textContent.toLocaleLowerCase().includes("build") ) {
+  
+    read("Sorry I can't give my internal information. It's out of my permissions. You may ask me some other questions I will try to give you the correct information..");
+  
+  }
   
   else if (content.textContent.toLocaleLowerCase().includes("stop")) {
   
@@ -235,6 +258,15 @@ recognition.onresult = function(event){
     read("opening youtube!");
     window.open("https://youtube.com");
   }
+
+  else if (content.textContent.toLocaleLowerCase().includes("how") && content.textContent.toLocaleLowerCase().includes("you") {
+  
+    read("I'm fine. How can I help you ?");
+  }
+  else if (content.textContent.toLocaleLowerCase().includes("who") && content.textContent.toLocaleLowerCase().includes("you") ) {
+  
+    read("I'm an artificial intelligent robot made by Bitto saha. You can call up my name as alexa");
+  }
   else if (content.textContent.toLocaleLowerCase().includes("instagram")) {
   
     read("opening enstagram!");
@@ -247,7 +279,7 @@ recognition.onresult = function(event){
     window.open("https://facebook.com/bittosahaT");
   }
   
-  else if (content.textContent.toLocaleLowerCase().includes("alexa")) {
+  else if (content.textContent.toLocaleLowerCase() === "alexa") {
   
     read("Yeah sir checking my system............ OK... I am now online sir. Now you can give me commands. For primary instruction say help");
   }
@@ -421,7 +453,7 @@ recognition.onresult = function(event){
   }
   else{
     
-    read("sorry out of my program! try again.");
+    read("sorry sir! It's out of my program. Please search it on Google, youtube, wikipedia by clicking on each icon and say the question again. Thank you..");
   }
 }
 
