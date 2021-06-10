@@ -27,7 +27,7 @@ recognition.onresult = function(event){
   const transcript = event.results[current][0].transcript;
   content.textContent = transcript;
   
-  btn.style.color="lightpink";
+  btn.style.color="#00416a";
   
   if(content.textContent.toLocaleLowerCase()===("hi")||content.textContent.toLocaleLowerCase().includes("hello")){
     
