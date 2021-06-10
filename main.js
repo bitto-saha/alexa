@@ -7,7 +7,7 @@ const recognition =  new SpeechRecognition();
 btn.addEventListener("click", ()=> {
   
   recognition.start();
-  btn.style.color="coral";
+  btn.style.color="lightpink";
   
   
 });
@@ -493,7 +493,7 @@ const recognition = new SpeechRecognition();
 googleBtn.addEventListener("click", () => {
 
   recognition.start();
-  btn.style.color = "coral";
+  btn.style.color = "lightpink";
 
 
 });
@@ -532,7 +532,7 @@ const recognition = new SpeechRecognition();
 wikiBtn.addEventListener("click", () => {
 
   recognition.start();
-  btn.style.color = "coral";
+  btn.style.color = "lightpink";
 
 
 });
@@ -573,7 +573,7 @@ const recognition = new SpeechRecognition();
 utubeBtn.addEventListener("click", () => {
 
   recognition.start();
-  btn.style.color = "coral";
+  btn.style.color = "lightpink";
 
 
 });
@@ -651,7 +651,7 @@ const recognition = new SpeechRecognition();
 fbBtn.addEventListener("click", () => {
 
   recognition.start();
-  btn.style.color = "coral";
+  btn.style.color = "lightpink";
 
 
 });
