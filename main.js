@@ -680,8 +680,8 @@ recognition.onresult = function(event) {
 //talking tom
 function talktom(){
 
-    const btn = document.getElementById("btn");
-const content = document.getElementById("content");
+    const talkbtn = document.getElementById("cs");
+const talkcontent = document.getElementById("cn");
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition ;
 
 const recognition =  new SpeechRecognition();
@@ -697,13 +697,13 @@ recognition.onresult = function(event){
   const current = event.resultIndex;
   
   const transcript = event.results[current][0].transcript;
-  content.textContent = transcript;
+  talkcontent.textContent = transcript;
   read(transcript);
   
 }
 
 
-btn.addEventListener("click", ()=> {
+talkbtn.addEventListener("click", ()=> {
   
   recognition.start();
   
