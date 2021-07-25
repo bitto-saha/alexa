@@ -276,7 +276,7 @@ recognition.onresult = function(event){
   else if (content.textContent.toLocaleLowerCase().includes("open")&&content.textContent.toLocaleLowerCase().includes("boss")&&content.textContent.toLocaleLowerCase().includes("profile")) {
   
     read("opening my boss's facebook profile!");
-    window.open("https://facebook.com/bittosahaT");
+    window.open("https://facebook.com/bitto.self");
   }
   
   else if (content.textContent.toLocaleLowerCase() === "alexa") {
