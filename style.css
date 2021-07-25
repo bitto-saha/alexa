@@ -137,3 +137,325 @@ ul{
   }
   
 }
+
+* {
+    user-select: none;
+ 
+}
+ 
+p {
+    font-family: 'Mukta', sans-serif;
+    color: #00416a;
+ 
+ 
+}
+ 
+#hoc {
+ 
+    margin-left: 300px;
+    font-size: 30px;
+    color: #00416a;
+ 
+}
+ 
+#poc {
+    margin-left: 300px;
+    font-size: 30px;
+    color: palevioletred;
+    display: none;
+}
+ 
+#op {
+    padding: 0rem;
+}
+ 
+#icon {
+    font-size: 25px;
+}
+ 
+#icon2 {
+    font-size: 30px;
+    color: #00416a;
+    display: none;
+    margin-left: 295px;
+}
+ 
+#t li a {
+    background-color: #00416a;
+    border-radius: 3px;
+    color: white;
+}
+ 
+#t li {
+    padding-bottom: 1px;
+}
+ 
+#f {
+    background-color: #2b3e40;
+}
+ 
+small {
+    font-family: 'Mukta', sans-serif;
+ 
+}
+ 
+#ot {
+    color: #fff;
+}
+ 
+h5 {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+ 
+a {
+    text-decoration: none;
+}
+ 
+#next {
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #00416a;
+}
+ 
+ 
+ 
+ 
+#microPhn {
+ 
+    font-size: 200px;
+    margin-top: 500px;
+    color: #00416a;
+ 
+}
+ 
+#bdn {
+    font-size: 20px;
+}
+ 
+#yn {
+ 
+    font-size: 22px;
+}
+ 
+#wn {
+ 
+    font-size: 22px;
+}
+ 
+#gn {
+ 
+    font-size: 22px;
+}
+ 
+input {
+ 
+    display: none;
+}
+ 
+#ul {
+ 
+    margin-left: 0px;
+    display: none;
+}
+ 
+li {
+    margin-left: 0px;
+    font-family: 'Mukta', sans-serif;
+    color: #00416a;
+}
+ 
+#result {
+    font-size: 18px;
+}
+ 
+ 
+ 
+hr {
+    color: lightpink;
+}
+ 
+@media (max-width: 720px) {
+    h1 {
+        font-size: 20px;
+    }
+ 
+    #microPhn {
+        font-size: 110px;
+        margin-top: 250px;
+    }
+}
+ 
+#h1 {
+ 
+    font-size: 150px;
+    color: white;
+    -webkit-text-stroke: 0.3vw black;
+ 
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-shadow: 5px 7px 9px #00416a;
+ 
+}
+ 
+.lg {
+    margin-top: 150px;
+}
+ 
+.u {
+    font-size: 35px !important;
+}
+ 
+.lead {
+    font-family: 'Mukta', sans-serif;
+    color: #00416a;
+ 
+ 
+}
+ 
+#smlg {
+ 
+    color: white;
+    -webkit-text-stroke: 0.3px black;
+ 
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-shadow: 0.5px 0.8px 1.1px #00416a;
+ 
+}
+ 
+#smlother {
+    font-family: 'Dancing Script', cursive;
+    color: #00416a;
+}
+ 
+.other {
+ 
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color: #00416a;
+ 
+}
+ 
+.uio {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+ 
+footer {
+    margin-top: 200px;
+ 
+    font-family: 'Mukta', sans-serif;
+ 
+}
+ 
+#c {
+ 
+    font-size: 20px;
+    color: lightsalmon;
+}
+ 
+#m {
+ 
+    font-size: 20px;
+    color: lightsalmon;
+}
+ 
+#l {
+ 
+    font-size: 20px;
+    color: lightsalmon;
+}
+ 
+::placeholder {
+ 
+    font-family: 'Mukta', sans-serif;
+ 
+}
+ 
+li {
+    font-family: 'Mukta', sans-serif;
+}
+ 
+#titleadd {
+    font-family: 'Mukta', sans-serif;
+}
+ 
+input {
+    font-family: 'Mukta', sans-serif;
+ 
+}
+ 
+#icon {
+    font-size: 35px;
+    color: #00416a;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+ 
+button {
+ 
+    font-family: 'Mukta', sans-serif;
+}
+ 
+ul {
+    list-style-type: none;
+    margin-left: 100px;
+}
+ 
+@media (min-width: 720px) {
+ 
+    #icon {
+        font-size: 35px;
+        color: #00416a;
+        margin-left: 900px;
+        margin-top: 15px;
+    }
+ 
+    #hoc {
+ 
+        margin-left: 900px;
+        font-size: 35px;
+        color: #00416a;
+ 
+    }
+ 
+    #poc {
+        margin-left: 900px;
+        font-size: 35px;
+        color: palevioletred;
+        display: none;
+    }
+ 
+    #icon2 {
+        font-size: 30px;
+        color: #00416a;
+        display: none;
+        margin-left: 900px;
+    }
+ 
+    #t {
+        margin-left: 500px;
+    }
+ 
+    #ohm {
+        width: 400px;
+        margin-left: 50px;
+        text-align: left;
+    }
+ 
+    #result {
+        text-align: left;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+ 
+    #optns {
+        text-align: right;
+        margin-left: 600px;
+    }
+ 
+    #amr {
+        margin-left: 205px;
+    }
+ 
+    #h {
+        border-right: 2px solid black;
+    }
+}
+
