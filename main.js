@@ -302,6 +302,12 @@ recognition.onresult = function(event){
     read("Yes boss! I'm ready and online now");
     
   }
+  else if (content.textContent.toLocaleLowerCase().includes("love you")) {
+  
+    read("Oh! really??? But I don't love you.. bye");
+    document.querySelector("body").style.display="none";
+    
+  }
   
   else if (content.textContent.toLocaleLowerCase().includes("time")) {
   
