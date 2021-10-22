@@ -1,3 +1,4 @@
+alert("All songs and assets are collected from internet!");
 const btn = document.getElementById("microPhn");
 var audio;
 const content = document.getElementById("content");
